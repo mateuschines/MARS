@@ -1,0 +1,44 @@
+body {
+  font: 14px Tahoma, Arial; 
+}
+
+ #bgindex {
+    background: rgba(0, 0, 0, 0.2);
+ }
+
+#login {
+  width: 400px;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  box-shadow: 1px 1px 0px #000;
+  text-align: center;
+  margin: 100px auto;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff; 
+}
+
+.parsley-errors-list {
+  list-style: none;
+  color: #f00;
+  margin: 10px 0px 10px -20px;
+  text-align: left; 
+}
+
+.tela {
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  box-shadow: 1px 1px 0px #000;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.4);
+  }
+
+footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  float: right;
+
+}

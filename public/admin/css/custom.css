@@ -1,0 +1,62 @@
+/* your styles go here */
+
+/*Camera*/
+#barcodevideo, #barcodecanvas, #barcodecanvasg {
+	height: 400px;
+	width: 400px;
+}	
+
+#barcodecanvasg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#result {
+	font-family: verdana;
+	font-size: 1.5em;
+}
+
+#barcode {
+	position: relative;
+}	
+
+#barcodecanvas {
+	display: none;
+}
+/*Fim Camera*/
+
+.parsley-errors-list {
+  list-style: none;
+}
+.relatorio {
+  margin-top: 2em;
+}
+
+@media (max-width: 1196px) {
+	#logo-ma{
+		width: 6em;
+		height: 4em;
+	}
+}
+
+@media (max-width: 500px) {
+	#barcodevideo, #barcodecanvas, #barcodecanvasg {
+		height: 200px;
+		width: 300px;
+	}
+}
+
+
+/*
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #eee;
+  background-image: url("../imagesProdutos/inde.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }*/

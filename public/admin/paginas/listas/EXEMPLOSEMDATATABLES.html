@@ -1,0 +1,77 @@
+<!--Antigo
+  <section>
+  <div class="container-fluid">
+  <header> 
+  <div class="row">
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-header">
+        <h4>Cidades</h4>
+      </div>
+      <div class="card-body">
+        <form name="form1" method="post" class="text-center">
+          <div class="input-group mb-3">
+            <input type="text" name="busca" class="form-control" id="search" placeholder="Buscar por Cidades" >
+          </div>
+        </form>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover" id="dados">
+              <thead>
+                <tr>
+                  <th>Estado</th>
+                  <th>Cidade</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <?php/*
+                $dados = $cidadeC->listarCidades();
+                    
+                    if($dados){
+                      foreach ($dados as $key) {
+                        echo "<tr>
+                                <td>$key->estado</td>
+                                <td>$key->nome</td>
+                              </tr>";
+                        }
+                      } else {
+                        echo "<tr>
+                                <th scope='row'>#</th>
+                                <td>Dados nao encontrados</td>
+                              </tr>";
+                       }  
+                    */  
+                 ?>
+              </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </header>
+</div>
+</section>
+
+<script type="text/javascript">
+  document.getElementById('search').addEventListener('keyup', pesquisaTabela());
+
+  function pesquisaTabela() {
+    var filter, table, tr, td, i;
+    table = document.getElementById("dados");
+    return function() {
+      tr = table.querySelectorAll("tbody tr");
+      filter = this.value.toUpperCase();
+      for (i = 0; i < tr.length; i++) {
+        var match = tr[i].innerHTML.toUpperCase().indexOf(filter) > -1;
+        tr[i].style.display = match ? "" : "none";
+      }
+    }
+  }
+
+ 
+</script>
+
+-->
